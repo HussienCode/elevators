@@ -1,0 +1,255 @@
+/* small decive */
+@media (min-width: 320px) and (max-width: 480px) {
+  .landing,
+  .services,
+  .evelator,
+  .allProducts {
+    margin-top: 1rem;
+  }
+  .landing h1 {
+    font-size: 29px;
+    margin-top: 1rem;
+  }
+  .landing p,
+  .services p,
+  .types p,
+  .aboutUs p {
+    font-size: 14px;
+  }
+  .landing img {
+    display: none;
+  }
+  .landing .btn-primary,
+  .project .btn-primary {
+    margin-bottom: 2rem;
+  }
+  .services h1,
+  .project h1,
+  .products h1,
+  .preview h1,
+  .footer h1,
+  .prices h1,
+  .contactForm h1,
+  .aboutUs h1,
+  .category h1,
+  .evelator h1,
+  .allProducts h1,
+  .carttable h1,
+  .signin h1,
+  .signup h1,
+  .nothing h1,
+  .videos h1,
+  .files h1 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .evelator h1 {
+    margin-bottom: 2rem;
+  }
+  .evelator h2{
+    margin-top: 2rem;
+    font-size: 32px;
+  }
+  .services h4 {
+    font-size: 18px;
+  }
+  .project,
+  .preview,
+  .prices,
+  .contactForm,
+  .aboutUs,
+  .category,
+  .carttable,
+  .signin,
+  .signup {
+    margin-top: 0;
+  }
+  .category img {
+    width: 45%;
+    height: auto;
+  }
+  .project p,
+  .preview p {
+    font-size: 18px;
+  }
+  .products,
+  .types,
+  .footer {
+    margin: 3rem 0;
+  }
+  .types {
+    margin: 0;
+  }
+  .footer {
+    padding-top: 2rem;
+    margin-bottom: 0;
+  }
+  .border-end {
+    border: none !important;
+  }
+  .border-start {
+    border: none !important;
+  }
+  ol,
+  ul {
+    padding-left: 0rem;
+  }
+  .floating_Icons {
+    bottom: 60px;
+    height: 80px;
+    width: 80px;
+    right: 80%;
+    left: 0;
+  }
+  .aboutUs p {
+    padding-top: 10px;
+  }
+  .contactForm form,
+  .signup form {
+    width: 100%;
+  }
+  .prices form {
+    margin-top: 0rem;
+  }
+  .carttable table img {
+    max-width: 100%;
+  }
+  .carttable table thead tr th {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .carttable table td {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .carttable table td input {
+    width: 100%;
+    font-size: 14px;
+  }
+  .carttable table td .fa-trash {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+  .carttable .btn-secondary {
+    padding: 1rem 0;
+    font-size: 18px;
+  }
+  .carttable .btn-success {
+    padding: 12px 10px;
+    font-size: 16px;
+  }
+  .allProducts .form-select {
+    margin-bottom: 10px;
+  }
+  .allProducts .btn-primary {
+    width: 60%;
+  }
+  .allProducts .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+  .evelator table {
+    margin: 1rem 0px 1rem 0;
+  }
+  .evelator table td,
+  th {
+    font-size: 12px;
+  }
+  .evelator .btn-primary {
+    margin-bottom: 10px;
+  }
+  .evelator .btn-success {
+    float: none;
+  }
+  .signin form,
+  .signup form {
+    width: 100%;
+  }
+  .signin span {
+    font-size: 16px;
+  }
+  .signin a {
+    margin: 0;
+    text-decoration: none;
+    padding: 1rem 13px;
+    font-size: 16px;
+  }
+  .nothing .translate-middle-y {
+    transform: unset !important;
+  }
+  .nothing .position-absolute {
+    position: unset !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* css */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .dropdown-item {
+    font-size: 1rem;
+  }
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .dropdown-item {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 4px;
+  }
+  .landing h1 {
+    font-size: 34px;
+  }
+  .services h1,
+  .project h1,
+  .products h1,
+  .preview h1,
+  .footer h1,
+  .prices h1,
+  .contactForm h1,
+  .aboutUs h1,
+  .category h1,
+  .evelator h1,
+  .allProducts h1,
+  .carttable h1,
+  .signin h1,
+  .signup h1 {
+    font-size: 38px;
+  }
+  .services h4 {
+    font-size: 18px;
+  }
+  .project,
+  .preview,
+  .prices,
+  .contactForm,
+  .aboutUs,
+  .category,
+  .carttable,
+  .signin,
+  .signup {
+    margin-top: 3rem;
+  }
+  .category img {
+    width: 80%;
+    height: auto;
+  }
+  .project h1 {
+    padding-top: 0;
+  }
+  .project p,
+  .preview p {
+    font-size: 16px;
+  }
+  .contactForm form {
+    width: 80%;
+  }
+  .signin form,
+  .signup form {
+    width: 50%;
+  }
+  .nothing .translate-middle-y {
+    transform: unset !important;
+  }
+  .nothing .position-absolute {
+    position: unset !important;
+  }
+}
